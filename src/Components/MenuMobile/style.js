@@ -41,6 +41,7 @@ export const Container = styled.nav`
         opacity: 1;
         transition: ease-in-out .8s;
         height: 100%;
+        overflow-y: hidden;
         svg{
             transform: rotate(0deg);            
         }
@@ -57,6 +58,7 @@ export const ItensMob = styled.li`
         line-height: 33px;
         color:  #fff;
         transition: .2s;
+        text-decoration: none;
 
          &:hover{
             cursor: pointer;

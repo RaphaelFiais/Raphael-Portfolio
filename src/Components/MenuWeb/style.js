@@ -9,7 +9,9 @@ export const Menu = styled.nav`
     align-items: center;
     padding: 0 100px;
     background-color: #151515;
-    
+    position: fixed;
+    width: 100%;
+    box-shadow:0 0 4px 0 rgba(255 , 255 , 255 , 0.1);
     img{
         width: 100%;
         max-width: 300px;
@@ -34,6 +36,7 @@ export const ItensMenu= styled.ul`
     align-items: center;
     list-style: none;
     gap: 50px;
+    
     @media screen and (max-width: 1002px){        
         display: none;           
     } 
@@ -55,6 +58,7 @@ export const LinksMenu = styled.a`
     font-size: 22px;
     line-height: 33px;
     color: #7ED957;
+    text-decoration: none;
     &:hover{
         color: #fff;
         cursor: pointer;

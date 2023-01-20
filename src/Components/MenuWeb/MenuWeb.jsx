@@ -8,10 +8,10 @@ const MenuWeb = ({ setMenuIsVisible }) => {
       <Menu>
         <img src={logo} alt="imagem" />
         <ItensMenu>
-          <li><LinksMenu>Home</LinksMenu></li>
-          <li><LinksMenu>Sobre mim</LinksMenu></li>
-          <li><LinksMenu>Projetos</LinksMenu></li>
-          <li><LinksMenu>Contatos</LinksMenu></li>
+          <li><LinksMenu href='#home'>Home</LinksMenu></li>
+          <li><LinksMenu href='#about'>Sobre mim</LinksMenu></li>
+          <li><LinksMenu href='#projects'>Projetos</LinksMenu></li>
+          <li><LinksMenu href='#contacts'>Contatos</LinksMenu></li>
         </ItensMenu>
         <SimpleMenu onClick={() => { setMenuIsVisible(true) }} />
         
