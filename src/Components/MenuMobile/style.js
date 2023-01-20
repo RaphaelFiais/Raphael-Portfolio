@@ -12,7 +12,7 @@ export const Container = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(156,247,117,0.5);   
+    background: rgba(90,157,57,0.2);   
     opacity: 0;    
     height: 0;
     transition: .5s;
