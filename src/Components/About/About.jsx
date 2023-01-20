@@ -1,7 +1,9 @@
+import Myphoto from "../../assets/pngegg.png"
 import React from 'react'
 import Title from '../Title/Title'
 import { SobreMim, TextAbout } from './style'
-import {MyPhoto} from '../../assets/pngegg.png'
+
+
 function About() {
     return (
 
@@ -10,7 +12,7 @@ function About() {
             <Title>Sobre mim</Title>
             
                 <TextAbout>
-                <img src={MyPhoto} alt="" />
+                <img src={Myphoto} alt="" />
                     <p>
                         Como Desenvolvedor front-end, tenho habilidades em HTML, CSS, JavaScript, ReactJs e NodeJs.
                         Gosto de trabalhar em equipe e sempre estou disponível para aprender mais e evoluir minhas habilidades.

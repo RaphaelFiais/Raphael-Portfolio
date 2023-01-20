@@ -12,7 +12,7 @@ export const Container = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(17,17,17,0.5);   
+    background: rgba(156,247,117,0.5);   
     opacity: 0;    
     height: 0;
     transition: .5s;
@@ -41,7 +41,6 @@ export const Container = styled.nav`
         opacity: 1;
         transition: ease-in-out .8s;
         height: 100%;
-        overflow-y: hidden;
         svg{
             transform: rotate(0deg);            
         }
