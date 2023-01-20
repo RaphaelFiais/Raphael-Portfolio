@@ -4,12 +4,14 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 
 export const Menu = styled.nav`
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
     background-color: #151515;
     position: fixed;
+    height: 75px;
     width: 100%;
     box-shadow:0 0 4px 0 rgba(255 , 255 , 255 , 0.1);
     img{

@@ -4,8 +4,9 @@ import styled from "styled-components";
 
 export const SobreMim = styled.section`
     width: 100%;
+    height:auto ;
     background-color: #171717;
-    padding: 80px 0 80px 0;
+    padding: 170px 0 80px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +23,8 @@ export const SobreMim = styled.section`
         
     }
     img{
-       max-width: 250px;
+       max-width: 400px;
+       border-radius: 15px;
     }
     
    

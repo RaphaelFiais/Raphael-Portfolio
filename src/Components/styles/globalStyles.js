@@ -12,6 +12,16 @@ const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
         
     }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #101010;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #7ED957;
+        border-radius: 5px;
+    }
 
 `
 

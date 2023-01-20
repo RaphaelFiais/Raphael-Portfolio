@@ -1,4 +1,4 @@
-import Myphoto from "../../assets/pngegg.png"
+import Myphoto from "../../assets/Myphoto.png"
 import React from 'react'
 import Title from '../Title/Title'
 import { SobreMim, TextAbout } from './style'

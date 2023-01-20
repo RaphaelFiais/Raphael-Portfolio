@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerHome =  styled.section`
+    padding-top:150px;
     height: 100vh;
     background-color: #101010;
     display: flex;
@@ -29,7 +30,7 @@ export const Boxinfo = styled.div`
     flex-direction: column;
     align-items: flex-start;
 
-    @media screen and (max-width: 856px){
+    @media screen and (max-width: 844px){
         justify-content: center;
         align-items: center;
         
