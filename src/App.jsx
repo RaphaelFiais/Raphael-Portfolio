@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <Nav/>
-    <Home id="home"/>
-    <About id="sobre-mim"/>
+    <Home/>
+    <About/>
     </>
   )
 }
