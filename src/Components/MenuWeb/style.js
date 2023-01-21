@@ -14,6 +14,8 @@ export const Menu = styled.nav`
     height: 75px;
     width: 100%;
     box-shadow:0 0 4px 0 rgba(255 , 255 , 255 , 0.1);
+    z-index: 50;
+    opacity: 0.9;
     img{
         width: 100%;
         max-width: 300px;

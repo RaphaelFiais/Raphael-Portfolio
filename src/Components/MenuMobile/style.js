@@ -12,11 +12,12 @@ export const Container = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(90,157,57,0.2);   
+    background: rgba(17,17,17,0.2);   
     opacity: 0;    
     height: 0;
     transition: .5s;
     overflow: hidden;
+    z-index: 8000;
 
     
 
