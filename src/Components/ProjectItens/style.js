@@ -146,10 +146,11 @@ export const Modal = styled.div`
                 display: flex;
                 gap: 15px;
 
-                button{
+                a{
                     background-color: #101010;
                     border: none;
                     color: #fff;
+                    text-decoration: none;
                     border-radius: 10px;
                     cursor: pointer;
                     padding: 10px 15px;

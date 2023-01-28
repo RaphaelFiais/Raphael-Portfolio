@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { IoClose } from 'react-icons/io5'
 import { Modal, ProjectItem } from './style'
 
-const ProjectItens = ({ template, name, description, icon1, icon2, icon3, icon4 }) => {
+const ProjectItens = ({ template, name,projeto,repositorio, description,icon1, icon2, icon3, icon4 }) => {
 
   const [openModal, setOpenModal] = useState(false)
   useEffect(() => {
@@ -34,8 +34,8 @@ const ProjectItens = ({ template, name, description, icon1, icon2, icon3, icon4 
             <h2>{name}</h2>
             <p>{description}</p>
             <div>
-            <button>Repositorio</button>
-            <button>Ver Projeto</button>
+            <a href={repositorio} target="_Blank" >Repositorio</a>
+            <a href={projeto} target="_Blank">Projeto</a>
             </div>
             
           </div>          
