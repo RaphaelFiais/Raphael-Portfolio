@@ -11,30 +11,40 @@ export const SobreMim = styled.section`
     align-items: center;
     justify-content: center;
     flex-direction: column;   
+   
+`
+export const TextAbout = styled.div`
+    width:100%;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    gap: 50px;
+    padding: 0 20px;
 
+    img{
+        width:90%;
+       max-width: 400px;
+       border-radius: 15px;
+    }
 
     p{
-        margin-left: 150px;        
         font-weight: 500;
         font-size: 17px;
         line-height: 33px;
         color: #fff;
         max-width: 800px;
+        @media screen and (max-width: 500px) {
+            font-size: 15px;
+            line-height: 25px;
+            
+        }
         
     }
-    img{
-       max-width: 400px;
-       border-radius: 15px;
-    }
-    
-   
-`
-export const TextAbout = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-top: 50px;
+
+
+
     @media screen and (max-width: 917px){ 
         flex-direction: column;
         h1{

@@ -21,6 +21,9 @@ export const ProjectItem = styled.div`
                 width: 100%;
                 max-width: 300px;                
             }
+
+    
+
       }
 
       .projectType {
@@ -28,12 +31,22 @@ export const ProjectItem = styled.div`
             display: flex;
             align-items: center;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px;
 
+        
+            div{
+                display: flex;
+                gap: 10px;
+                
+            }
+            h2{
+                color: #FFFFFF;
+            }
             svg{
+
                 color: #7ED957;
                 height: auto;
-                width: 30px;
+                width: 40px;
             }
         }
 
@@ -54,7 +67,7 @@ export const ProjectItem = styled.div`
 
         h2{
             font-weight: 500;
-            font-size: 22px;
+            font-size: 17px;
             line-height: 33px;
         }
         
@@ -116,11 +129,51 @@ export const Modal = styled.div`
     overflow: hidden;
         
 
-    div{
+    .infoModal{
         position: relative;
         width: 90%;
         max-width: 1200px;
-        background-color: #7ED957;
+        background-color: rgba(126, 217, 87, 0.6);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+
+        .description{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            div{
+                display: flex;
+                gap: 15px;
+
+                button{
+                    background-color: #101010;
+                    border: none;
+                    color: #fff;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    padding: 10px 15px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 22px;
+                    &:hover{
+                        opacity: 0.8;
+                        color: #7ed957;
+                    }
+                        }
+            }
+            p{
+            font-weight: 550;
+            font-size: 17px;
+            line-height: 22px;
+            }
+        }
+
+        img{
+            max-width: 400px;
+            margin: 50px ;
+            border-radius: 5px;
+        }
 
         svg{
             position: absolute;
@@ -129,8 +182,9 @@ export const Modal = styled.div`
         }
     }
 
-    ${({isOpen}) => isOpen && css`
+    ${({ isOpen }) => isOpen && css`
         width: 100%;
+
     `
     }
 `

@@ -8,6 +8,7 @@ export const ContainerHome =  styled.section`
     justify-content: space-around;
     align-items: center;    
     flex-wrap: wrap;
+    
    
     p{
         margin-top: 20px;
