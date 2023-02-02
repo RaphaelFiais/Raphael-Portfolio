@@ -1,4 +1,6 @@
 import About from "./Components/About/About"
+import Footer from "./Components/Footer/Footer"
+
 import Home from "./Components/Home/Home"
 import Nav from "./Components/Nav/Nav"
 import Projects from "./Components/Projetos/Projetos"
@@ -14,6 +16,7 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
+    <Footer/>
     </>
   )
 }

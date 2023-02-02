@@ -110,6 +110,7 @@ export const ProjectItem = styled.div`
             overflow: visible;
             transition: .4s;
             border: 1px solid  #7ED957 ;
+            opacity: 0.7;
         }
     }
 `
@@ -132,15 +133,19 @@ export const Modal = styled.div`
     .infoModal{
         position: relative;
         width: 90%;
-        max-width: 1200px;
+        max-width: 1100px;
         background-color: rgba(126, 217, 87, 0.6);
         display: flex;
+        padding: 20px;
         align-items: center;
+        justify-content: center;
         border-radius: 5px;
+        flex-wrap: wrap; 
 
         .description{
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 20px;
             div{
                 display: flex;
@@ -167,13 +172,16 @@ export const Modal = styled.div`
             font-weight: 550;
             font-size: 17px;
             line-height: 22px;
+            max-width: 500px;
+            padding: 10px;
             }
         }
 
         img{
+            margin: 30px ;
+            border-radius: 15px ;
+            width: 100%;
             max-width: 400px;
-            margin: 50px ;
-            border-radius: 5px;
         }
 
         svg{

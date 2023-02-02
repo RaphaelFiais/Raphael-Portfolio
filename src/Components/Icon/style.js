@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const SocialIcon = styled.div`
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     gap: 20px;
     cursor: pointer;    
     list-style: none;
