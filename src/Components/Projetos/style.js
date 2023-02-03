@@ -21,4 +21,9 @@ export const BoxProject = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    @media screen and (max-width:960px){
+        display: flex;
+        
+    }
 `

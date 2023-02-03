@@ -26,19 +26,28 @@ export const ProjectItem = styled.div`
       }
 
       .projectType {
-            position: absolute;
+        position: absolute;
+        width:100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 15px;
+            padding: 10px;
 
         
             div{
                 display: flex;
+                width: 100%;
+                max-width: 150px;
+                align-items: center;
+                justify-content: center;
                 gap: 10px;
                 
             }
             h2{
+                font-weight: 600;
+                font-size: 25px;
+                
                 color: #FFFFFF;
             }
             svg{
@@ -80,6 +89,7 @@ export const ProjectItem = styled.div`
             font-weight: 500;
             font-size: 15px;
             line-height: 22px;
+            
             &:hover{
                 //opacity: 0.8;
                 color: #FFFFFF;
@@ -127,7 +137,8 @@ export const Modal = styled.div`
     justify-content: center;
     width: 0;
     overflow: hidden;
-    
+    opacity: 1;
+    transition: opacity 1s;
    
     .infoModal{
         position: relative;
@@ -139,7 +150,7 @@ export const Modal = styled.div`
         align-items: center;
         justify-content: center;
         border-radius: 5px;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;        
         
 
       
@@ -195,6 +206,7 @@ export const Modal = styled.div`
 
     ${({ isOpen }) => isOpen && css`
         width: 100%;
+        
         
 
     `
