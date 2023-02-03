@@ -10,18 +10,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-padding: 140px 0;
+padding: 140px 50px;
 
 `
 export const BoxProject = styled.div`
-    margin: 50px 0;
-    display: flex ;
-    gap: 20px;
+    margin-top: 50px;
+    display: grid ;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
-
-    @media screen and (max-width: 1000px) {
-        flex-wrap: wrap;
-        
-    }
+    flex-wrap: wrap;
 `

@@ -8,6 +8,7 @@ export const ContainerHome =  styled.section`
     justify-content: space-around;
     align-items: center;    
     flex-wrap: wrap;
+    padding: 0 50px;
     
    
     p{
@@ -30,6 +31,18 @@ export const Boxinfo = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    animation: fadeIn 2s;
+
+    @keyframes fadeIn {
+            from{
+                opacity: 0; 
+                
+            }
+            
+            to{
+                opacity: 1;                
+            }
+        }
 
     @media screen and (max-width: 844px){
         justify-content: center;

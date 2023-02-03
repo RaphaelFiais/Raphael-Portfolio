@@ -8,7 +8,7 @@ import { Footers } from './style'
 
 function Footer() {
   return (
-    <Footers>
+    <Footers id='contacts'>
        <div className='infoFooter'>
        <img src={logo} alt="imagem" />
         <div className='contact'>

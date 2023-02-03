@@ -7,7 +7,7 @@ export const Footers = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 40px 20px;
+        padding: 40px 50px;
         gap: 60px;
         flex-wrap: wrap;
         img{

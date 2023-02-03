@@ -6,7 +6,7 @@ export const SobreMim = styled.section`
     width: 100%;
     height:auto ;
     background-color: #171717;
-    padding: 170px 0 80px 0;
+    padding: 170px 50px 80px 50px;
     display: flex;
     align-items: center;
     justify-content: center;

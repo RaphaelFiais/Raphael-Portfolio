@@ -2,8 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ProjectItem = styled.div`
     position: relative;
-    max-width: 550px;
-    margin: 0 30px 0 30px;
+    max-width: 500px;    
     background-color: #282828;
     border-radius:  15px;
     display: flex;
@@ -110,7 +109,7 @@ export const ProjectItem = styled.div`
             overflow: visible;
             transition: .4s;
             border: 1px solid  #7ED957 ;
-            opacity: 0.7;
+            
         }
     }
 `
@@ -128,8 +127,8 @@ export const Modal = styled.div`
     justify-content: center;
     width: 0;
     overflow: hidden;
-        
-
+    
+   
     .infoModal{
         position: relative;
         width: 90%;
@@ -141,6 +140,9 @@ export const Modal = styled.div`
         justify-content: center;
         border-radius: 5px;
         flex-wrap: wrap; 
+        
+
+      
 
         .description{
             display: flex;
@@ -193,6 +195,7 @@ export const Modal = styled.div`
 
     ${({ isOpen }) => isOpen && css`
         width: 100%;
+        
 
     `
     }

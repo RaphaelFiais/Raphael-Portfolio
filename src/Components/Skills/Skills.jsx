@@ -1,6 +1,6 @@
 import React from 'react'
-import { SiJavascript } from 'react-icons/si'
-import { FaCss3, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa'
+import { SiJavascript, SiWordpress } from 'react-icons/si'
+import { FaCss3, FaElementor, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa'
 import { BoxSkill, ContentSkill, Skill } from './style'
 import { BsGithub } from 'react-icons/bs'
 import Title from '../Title/Title'
@@ -30,6 +30,14 @@ function Skills() {
             <BoxSkill>
                 <FaNodeJs />
                 <p>NodeJs</p>
+            </BoxSkill>
+            <BoxSkill>
+                <SiWordpress />
+                <p>Wordpress</p>
+            </BoxSkill>
+            <BoxSkill>
+                <FaElementor />
+                <p>Elementor</p>
             </BoxSkill>
             <BoxSkill>
                 <BsGithub />

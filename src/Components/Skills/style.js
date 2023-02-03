@@ -6,7 +6,7 @@ export const Skill = styled.div`
     align-items: center;
     flex-direction: column;
     background-color: #171717;
-    padding: 50px 0;
+    padding: 50px;
 
     h1{
         font-weight: 500;

@@ -34,8 +34,8 @@ const ProjectItens = ({ template, name,projeto,repositorio, description,icon1, i
             <h2>{name}</h2>
             <p>{description}</p>
             <div>
-            <a href={repositorio} target="_Blank" >Repositorio</a>
-            <a href={projeto} target="_Blank">Projeto</a>
+            {repositorio && <a href={repositorio} target="_Blank" >Repositorio</a>}
+            <a href={projeto} target="_Blank">Site</a>
             </div>
             
           </div>          
