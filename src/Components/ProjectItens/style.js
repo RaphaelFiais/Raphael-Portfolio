@@ -90,6 +90,7 @@ export const ProjectItem = styled.div`
             font-size: 15px;
             line-height: 22px;
             
+            
             &:hover{
                 //opacity: 0.8;
                 color: #FFFFFF;
@@ -129,16 +130,20 @@ export const Modal = styled.div`
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 9900;
+    border: none;
+    z-index: 9999;
+    
     background: #20202095;
     backdrop-filter: blur(3px) ;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 0;
+    
     overflow: hidden;
-    opacity: 1;
-    transition: opacity 1s;
+    opacity: 0;
+    height: 0;
+    transition: 0.5s;
+    
    
     .infoModal{
         position: relative;
@@ -205,10 +210,11 @@ export const Modal = styled.div`
     }
 
     ${({ isOpen }) => isOpen && css`
-        width: 100%;
+        height: 100%;
+        overflow: visible;
+        opacity: 1;
+        transition: opacity ease-in 0.5s;
         
-        
-
     `
     }
 `

@@ -9,6 +9,13 @@ const ProjectItens = ({ template, name,projeto,repositorio, description,icon1, i
   useEffect(() => {
     document.body.style.overflowY = openModal ? 'hidden' : 'auto'
   }, [openModal])
+
+  window.addEventListener('keydown', (e) =>{
+    if(e.key==="Escape"){
+      setOpenModal(false)
+    }
+  })
+
   return (
     <div>
       <ProjectItem>
